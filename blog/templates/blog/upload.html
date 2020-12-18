@@ -1,0 +1,8 @@
+{% load static %}
+<form action="" method="POST" >{% csrf_token %}
+
+    <input type="text" name="title" placeholder=""><br>
+    <input type="file" name="video" accept="video/*">
+    <button type="submit"> Upload New Video </button>
+
+</form>
